@@ -1,7 +1,7 @@
 // 删除远程地址
 git remote rm origin
 
-// 更换远
+// 更换远程地址
 git remote add origin
 
 // 拉取代码
