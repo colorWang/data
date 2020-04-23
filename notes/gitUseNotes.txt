@@ -1,8 +1,14 @@
 // 删除远程地址
 git remote rm origin
 
-// 更换远程地址
+// 更换远
 git remote add origin
+
+// 拉取代码
+git pull <remote address>  <branch>
+
+// 生成公匙和私钥
+ssh-keygen -t rsa -C
 
 // 查看分支
 git branch
