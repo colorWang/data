@@ -1,0 +1,62 @@
+var path = require("path")
+var HtmlWebpackPlugin = require('html-webpack-plugin');
+const Compiler = require('vue-template-compiler')
+const VueLoaderPlugin = require('vue-loader/lib/plugin')
+module.exports = {
+    mode: "development",
+    entry: './src/main.js',
+    output: {
+        path: path.resolve(__dirname, './dist'),
+        filename: 'bundle.js'
+    },
+    devServer:{
+      host:'0.0.0.0',
+      port:8888
+    },
+    resolve:{
+      alias: {
+        '@': path.resolve(__dirname,'./src')// 这样配置后 @ 可以指向 src 目录
+      },
+      extensions:['.js', '.vue']
+    },
+    plugins: [new HtmlWebpackPlugin({template:"./src/index.html"}), new VueLoaderPlugin()],
+    module: {
+        rules: [
+            {
+              test: /\.vue$/,
+              use: [
+                { loader: 'vue-loader' }
+              ],
+
+            },
+            {
+                test: /\.js$/,
+                exclude: /(node_modules|bower_components)/,
+                use: {
+                  loader: 'babel-loader',
+                  options: {
+                    presets: ['@babel/preset-env']
+                  }
+                }
+              },
+              {
+                test: /\.css$/,
+                use: [ 'style-loader', 'css-loader' ]
+              },
+              {
+                test: /\.scss$/,
+                use: [{
+                    loader: "style-loader" // 将 JS 字符串生成为 style 节点
+                }, {
+                    loader: "css-loader" // 将 CSS 转化成 CommonJS 模块
+                }, {
+                    loader: "sass-loader" // 将 Sass 编译成 CSS
+                }]
+              },
+              {
+                test: /\.(eot|svg|ttf|woff|woff2)(\?\S*)?$/,
+                loader: 'file-loader'
+              }
+          ]
+    }
+}
