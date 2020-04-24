@@ -3,3 +3,5 @@ npm config set registry 'XXXXXXXXXXXXXXXXXXXXXX'
 
 // 版本中是~可以更改  '0.X.0' 中间号
 // 版本中是^可以更改  '0.0.X' 尾号
+
+// test git rebase command
