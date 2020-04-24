@@ -30,3 +30,44 @@ git rease remotes/origin/master master
 
 // 查看历史命令
 git log --pretty=format:"%h %s" --graph
+
+
+// git 解决冲突
+bash:
+    1.解决冲突
+    2.git add 告诉git 解决了冲突
+
+// git rebase 
+变基
+
+1.没有冲突的话就是 
+直接git pull  完后使用git rebase进行变基  提交树就是就是一致的
+
+2.要是有冲突的话
+这时候就麻烦了
+首先要就是git pull 完后冲突
+解决冲突后git add  告诉git 解决完了
+
+这时候git rebase
+然后再解决冲突后 git add 解决完了
+然后git pull  没有在更新时候 就 git push
+
+要是git pull完后  又有更新就要重复上次的操作
+
+// 中止 rebase
+git rebase --abort
+
+// 继续rebase
+git rebase --continue 
+
+// 回滚事物 返回上一不指针
+git merge --abort 
+
+
+
+//工具中解决冲突
+
+就是合并完以后
+
+git tools
+执行 resolve 命令告诉 git  我已经做出决定
