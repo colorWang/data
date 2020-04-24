@@ -24,3 +24,6 @@ git commit
 
 // 改变基线
 git rebase
+
+// 查看历史命令
+git log --pretty=format:"%h %s" --graph
