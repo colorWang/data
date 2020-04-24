@@ -25,5 +25,8 @@ git commit
 // 改变基线
 git rebase
 
+// 增加rebase 全名称
+git rease remotes/origin/master master
+
 // 查看历史命令
 git log --pretty=format:"%h %s" --graph
