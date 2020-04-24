@@ -4,5 +4,5 @@ npm config set registry 'XXXXXXXXXXXXXXXXXXXXXX'
 // 版本中是~可以更改  '0.X.0' 中间号
 // 版本中是^可以更改  '0.0.X' 尾号
 
-// test阿达发送到发的法撒旦发达
+// test阿达发送到发的法撒旦发达发热安慰法定萨达法撒旦
 
