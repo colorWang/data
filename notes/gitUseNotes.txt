@@ -10,6 +10,10 @@ git pull <remote address>  <branch>
 // 生成公匙和私钥
 ssh-keygen -t rsa -C
 
+// 有时候需要加上盘符
+ssh-keygen -t rsa -C c:/.ssh
+
+
 // 查看分支
 git branch
 
