@@ -30,7 +30,7 @@ git rease remotes/origin/master master
 
 // 查看历史命令
 git log --pretty=format:"%h %s" --graph
-
+// test
 
 // git 解决冲突
 bash:
