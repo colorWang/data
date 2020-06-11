@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body,
+      html {
+        width: 100%;
+        height: 100%;
+      }
+      body {
+        background: green;
+      }
+
+      @media only screen and (min-width: 1100px) {
+        body {
+          background: blue;
+        }
+      }
+      @media only screen and (min-width: 1200px) {
+        body {
+          background: black;
+        }
+      }
+      @media only screen and (min-width: 1400px) {
+        body {
+          background: yellow;
+        }
+      }
+      @media only screen and (max-width: 1000px) {
+        body {
+          background: #111;
+        }
+      }
+      @media only screen and (max-width: 900px) {
+        body {
+          background: #666;
+        }
+      }
+      @media only screen and (max-width: 800px) {
+        body {
+          background: white;
+        }
+      }
+      /*
+        总结：
+            1.min就是 至少得满足 定义的宽度  从小到大
+            2.max就是 不超多定义的宽度就行   从大到小
+      */
+    </style>
+  </head>
+  <body></body>
+</html>
