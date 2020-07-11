@@ -1,2 +1,3 @@
 
 https://github.danielcardoso.net/load-awesome/  // css 动画网站
+https://github.com/imochen/hotcss // 阿里html适配方案
