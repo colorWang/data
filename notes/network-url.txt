@@ -4,3 +4,16 @@ https://github.com/imochen/hotcss // 阿里html适配方案
 http://www.manongjc.com/cssref/css_reference.html // 不错的编码教程
 https://chenshenhai.github.io/koajs-design-note/note/chapter01/03.html // koa 原理介绍
 https://d39sdknfhxb4hd.cloudfront.net/ // 快连 vpn地址
+
+https://vue-next-template-explorer.netlify.app/    // 编译模板工具
+www.github.com/vuejs/vite  
+
+https://images.ac.cn/ // 图片托管生成在线地址
+
+https://github.com/search?q=%E5%A4%A7%E5%B1%8F  // 可视化大屏github仓库
+
+https://github.com/iammapping/wedding // 微信婚礼github地址
+
+https://gallery.echartsjs.com/editor.html?c=xG3rZAFEqu  //  echarts 配色库
+
+https://chenshenhai.github.io/koajs-design-note/note/chapter01/04.html // koa 原理介绍
