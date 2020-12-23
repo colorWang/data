@@ -43,3 +43,5 @@ https://pixabay.com // 图片库
 https://www.pexels.com
 
 https://github.com/wenyanjun/free // idea sourse 文档
+
+https://ustbhuangyi.github.io/vue-analysis/v2/prepare/ // vue源码分析
