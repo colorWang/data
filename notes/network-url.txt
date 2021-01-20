@@ -45,3 +45,5 @@ https://www.pexels.com
 https://github.com/wenyanjun/free // idea sourse 文档
 
 https://ustbhuangyi.github.io/vue-analysis/v2/prepare/ // vue源码分析
+
+http://honeygain.cn/2021/01/495/     // 油猴插件脚本代码
