@@ -48,4 +48,8 @@ https://ustbhuangyi.github.io/vue-analysis/v2/prepare/ // vue源码分析
 
 http://honeygain.cn/2021/01/495/     // 油猴插件脚本代码
 
+
 https://www.cnblogs.com/lvjingying/p/14270494.html    // nginx 配置window自启动
+
+https://github.com/zhangti0708/cesium-examples // cesium 好的demo
+
