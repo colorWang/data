@@ -55,3 +55,7 @@ https://github.com/zhangti0708/cesium-examples // cesium 好的demo
 
 https://juejin.cn/post/7021672733213720613?utm_source=gold_browser_extension // 正则
 
+
+https://sketchfab.com/3d-models?date=week&features=downloadable&sort_by=-likeCount&cursor=bz0xNSZwPTk%3D  // three.js 模型
+
+
