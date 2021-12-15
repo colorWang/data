@@ -58,4 +58,7 @@ https://juejin.cn/post/7021672733213720613?utm_source=gold_browser_extension // 
 
 https://sketchfab.com/3d-models?date=week&features=downloadable&sort_by=-likeCount&cursor=bz0xNSZwPTk%3D  // three.js 模型
 
+https://juejin.cn/post/7038267477121302542?utm_source=gold_browser_extension // canvas 动画设计库
 
+powercfg -h off // 关闭系统文件命令   
+powercfg-h on   // 开启系统文件命令
