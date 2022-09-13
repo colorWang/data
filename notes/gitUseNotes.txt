@@ -75,3 +75,5 @@ git merge --abort
 
 git tools
 执行 resolve 命令告诉 git  我已经做出决定
+
+git cherry-pick 'hash-code' //  引入某一次合并

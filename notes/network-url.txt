@@ -62,3 +62,7 @@ https://juejin.cn/post/7038267477121302542?utm_source=gold_browser_extension // 
 
 powercfg -h off // 关闭系统文件命令   
 powercfg-h on   // 开启系统文件命令
+
+https://www.poliigon.com/ 3D纹理材质
+
+http://www.mytju.com/classcode/tools/encode_utf8.asp // utf-8编码
